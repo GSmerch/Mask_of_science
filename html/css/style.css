@@ -1,0 +1,282 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	text-decoration: none;
+	list-style: none;
+}
+dm{
+	
+	color: #91F4FF;
+	//font-style: bold;
+}
+dn{
+	color: red;
+	font-size: 80%;
+}
+body{
+	font-family: 'Alice', serif;
+}
+.head1{
+	background: #000;
+	width: 100%;
+	display: flex; 
+	justify-content: center;
+	//flex-direction: column;
+}
+.dln{
+	background: #000;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+.grafhead1{
+	//display: flex;
+	
+	padding: 5px;
+	max-width: 100%;
+	box-sizing: border-box;
+	align-items: center;
+	
+}
+.graphim{
+	
+	background: : black;
+	max-width: 100%;
+	box-sizing: border-box;
+	align-items: center;
+}
+nav{
+	margin-top: auto;
+	//width: 100%;
+	height: 100px;
+	text-align: center;
+	padding: 10px 0px  0px 0px;
+	
+}
+.topnav{
+	background-color: #000;
+	font-size: 14px;
+	margin-top: 40px;
+	max-width:100%;
+
+}
+.topnav a{
+	color: #FFF;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 20px;
+
+
+}
+.topnav a :hover{
+	border-bottom: 2px solid #FFF;
+}
+.topnav .icon{
+	display: none;
+}
+.fon{
+	background: #000;
+	width: 100%;
+
+}
+main{
+	margin-top: auto;
+	width: 100%;
+	//height: 100px;
+	text-align: center;
+	//padding: 10px 0px  0px 0px;
+	
+}
+.part_one{
+	//background: #000;
+	width: 100%;
+	display: flex; 
+	justify-content: center;
+	
+}
+.tem{
+	width: 35%;
+	height: 500px;
+	background: #000;
+	margin-left: 0;
+	text-align: center;
+	padding: 10px;
+	color: white;
+}
+.card{
+	max-width: 100%;
+}
+.photo{
+	border-radius: 50%;
+	margin: 20px auto;
+	right: 50%;
+	max-width: 100%;
+}
+.name{
+	text-align: center;
+	color: white;
+}
+.position{
+	text-align: center;
+	color: white;
+}
+.card{
+	color: white;
+	text-align: center;
+	
+
+}
+
+.line{
+	float: right;
+	background: #FCAC45;
+	width: 5px;
+	height: 520px;
+	//position: relative;
+	//left: 42.5%;
+	//margin-bottom: 85px;
+	//margin-top: -455px;
+	margin-right: 0;
+}
+.inf{
+	padding: 10px 0px 0px 0px;
+	float: right;
+	background: #02001E;
+	width: 64.25%;
+	height: 510px;
+	margin-right: 0;
+	//margin-top: -520px;
+
+	
+}
+.txt h1{
+	color:white;
+	text-align: center; 
+}
+.txt p{
+	text-indent: 20px;
+	color:white;
+	padding: 15px 0px 0px 10px;
+	//width: 500px;
+	max-width: 100%;
+  text-align: left;
+}
+.named{
+	background: #000;
+	
+}
+.named h1{
+	color: white;
+	text-align: left;
+	padding: 10px 0px 10px 10px;
+}
+.line1{
+	background: #FCAC45;
+	width: 100%;
+	height: 5px;
+}
+glavs{
+	background: #02001E;
+}
+//glavs{
+//	background: #02001E;
+//	width:  100%;
+//	height: 500px;
+//}
+.nk{
+	background: #02001E;
+	padding: 10px 0px 0px 0px;
+}
+.nk a{
+		padding: 0px 0px 10px 20px;
+}
+//.nk b{
+	//padding: 0px 0px 0px 0px;
+//}
+//.vvc{
+//	width:  100%;
+	//height: 100px;
+	
+//}
+.ot{
+	padding: 0px 0px 10px 0px;
+}
+.vvc p{
+	display: none;
+}
+.vvc.rk p{
+	display: block;
+}
+.gl1c p{
+	display: none;
+}
+.gl1c.rk p{
+	display: block;
+}
+.line2{ 
+	//padding: 10px 0px 10px 0px;
+	background: #FFF;
+	width: 100%;
+	height: 3px;
+	//top: -10px;
+	//right:-20px;
+}
+.nk a{
+	color: #FFF;
+	font-size: 25px;
+}
+.say{
+	padding: 10px 0px 10px 30px;
+	text-indent: 40px;
+	color: white;
+}
+
+@media screen and (max-width: 768px){
+	.topnav a:not(:first-child){
+		display:none;
+	}
+	.topnav a.icon{
+		float: right;
+		margin-right: 20px;
+		margin-top: -17px;
+		display: block;
+		color: white;
+	}
+	nav{
+		width: 100%;
+		height: 100px;
+		text-align: left;
+		//display: flex;
+	}
+	.card{
+		font-size: 14px;
+	}
+	.topnav.responsive{
+		position: relative;
+		//position: absolute;
+		background: #000;
+		//display: block;
+		height: 100%*6;
+	}
+	.topnav.responsive a.icon{
+		
+		position: absolute;
+		right: 0;
+		top: -20px;
+		text-align: rigth;
+
+	}
+	.topnav.responsive a{
+		float: none;
+		display: block;
+		text-align: left;
+	}		
+	
+
+}
